@@ -1,9 +1,9 @@
 import React, { useCallback, useMemo, useState } from "react";
 import "../assets/styles/home.css";
-import CreateComponent from "./Components/CreateComponent";
-import NoteComponent from "./Components/NoteComponent";
+import CreateComponent from "./Components/CreateComponent.jsx";
+import NoteComponent from "./Components/NoteComponent.jsx";
 import { useSelector } from "react-redux";
-import EditPopup from "./components/EditPopup";
+import EditPopup from "./Components/EditPopup.jsx";
 
 const Home = () => {
   const { notes = [], searchQuery } = useSelector((state) => state.noteStore);

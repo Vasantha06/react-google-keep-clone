@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import "../../assets/styles/editpopup.css";
 import { useDispatch, useSelector } from "react-redux";
-import { createNote, updateNote } from "../../redux/homeSlice";
+import { createNote, updateNote } from "../../redux/homeSlice.js";
 import colorPallette from "../../assets/colorPallette.svg";
 import Popover from "./Popover";
 

@@ -4,10 +4,10 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import { Route, Routes } from 'react-router'
-import Home from './views/Home'
-import Archive from './views/Archive'
-import Trash from './views/Trash'
-import NotesWrapper from './views/layouts/NotesWrapper'
+import Home from './views/Home.jsx'
+import Archive from './views/Archive.jsx'
+import Trash from './views/Trash.jsx'
+import NotesWrapper from './views/layouts/NotesWrapper.jsx'
 
 const App = () => {
   const [count, setCount] = useState(0)

@@ -1,8 +1,8 @@
 import React, { useCallback, useMemo, useState } from "react";
 import { useSelector } from "react-redux";
-import NoteComponent from "./Components/NoteComponent";
+import NoteComponent from "./Components/NoteComponent.jsx";
 import "../assets/styles/trash.css";
-import EditPopup from "./components/EditPopup";
+import EditPopup from "./Components/EditPopup.jsx";
 const Trash = () => {
   const { notes = [], searchQuery } = useSelector((state) => state.noteStore);
   const [info, setInfo] = useState({

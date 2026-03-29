@@ -1,8 +1,8 @@
 import React, { useCallback, useMemo, useState } from "react";
 import "../assets/styles/archive.css";
 import { useSelector } from "react-redux";
-import NoteComponent from "./Components/NoteComponent";
-import EditPopup from "./components/EditPopup";
+import NoteComponent from "./Components/NoteComponent.jsx";
+import EditPopup from "./Components/EditPopup.jsx";
 
 const Archive = () => {
 	const { notes = [], searchQuery } = useSelector((state) => state.noteStore);

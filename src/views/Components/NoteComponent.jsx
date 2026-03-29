@@ -7,7 +7,7 @@ import pinned from "../../assets/pinned.svg";
 import restore from "../../assets/restore.svg";
 import deleteForever from "../../assets/deleteForever.svg";
 import { useDispatch, useSelector } from "react-redux";
-import { deletNote, updateNote } from "../../redux/homeSlice";
+import { deletNote, updateNote } from "../../redux/homeSlice.js";
 const NoteComponent = ({ data, source, onClick }) => {
 	const dispatch = useDispatch();
 	const { notes = [] } = useSelector((state) => state.noteStore);

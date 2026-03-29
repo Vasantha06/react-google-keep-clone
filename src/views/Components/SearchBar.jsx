@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../../assets/styles/searchBar.css";
-import { updateSearchQuery } from "../../redux/homeSlice";
+import { updateSearchQuery } from "../../redux/homeSlice.js";
 import { useDispatch } from "react-redux";
 
 const SearchBar = () => {

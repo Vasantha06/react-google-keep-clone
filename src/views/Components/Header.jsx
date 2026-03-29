@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/styles/header.css";
-import SearchBar from "./SearchBar";
+import SearchBar from "./SearchBar.jsx";
 const Header = () => {
   return (
     <div className="headerParentContainer">

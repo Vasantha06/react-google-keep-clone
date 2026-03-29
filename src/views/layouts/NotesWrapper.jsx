@@ -1,7 +1,7 @@
 import React, { Children } from "react";
 import "../../assets/styles/notesWrapper.css";
-import Header from "../components/Header";
-import Sidebar from "../components/Sidebar";
+import Header from "../Components/Header.jsx";
+import Sidebar from "../Components/Sidebar.jsx";
 
 const NotesWrapper = ({ children }) => {
   return (
