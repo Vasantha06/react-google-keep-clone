@@ -1,5 +1,5 @@
 import React, { useCallback, useRef, useState } from "react";
-import "../../assets/styles/createComponent.css";
+import "../../assets/styles/CreateComponent.css";
 import colorPallette from "../../assets/colorPallette.svg";
 import Popover from "./Popover";
 import { useDispatch, useSelector } from "react-redux";
